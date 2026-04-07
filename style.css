@@ -46,7 +46,14 @@ nav a:hover{
   justify-content:center;
   align-items:center;
   text-align:center;
-  background:linear-gradient(135deg,#0f172a,#1e293b);
+
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://universalcollegemkd.ac.in/_next/image?url=https%3A%2F%2Funiversalcollegemkd.ac.in%2Fuploads%2FDepartment%20of%20Computer%20science-2024-10-02-16-20-05.160.png&w=3840&q=75');
+
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
 }
 
 .hero h2{
@@ -64,6 +71,18 @@ nav a:hover{
   padding:60px 40px;
 }
 
+/* 🔥 ROADMAP BACKGROUND (FIXED) */
+#roadmap{
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://www.shutterstock.com/image-vector/road-map-3d-location-pin-260nw-2677644085.jpg');
+
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  color:white;
+}
+
 /* 🔥 CAREERS SECTION BACKGROUND */
 #careers{
   background:
@@ -72,6 +91,17 @@ nav a:hover{
   background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
+}
+/* 🔥 RESOURCES BACKGROUND */
+#resources{
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://hubcomputers.co.uk/wp-content/uploads/2024/12/a-level-computer-science-online-course-768x480.jpg');
+
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  color:white;
 }
 
 /* 🔥 CAREERS TITLE */
